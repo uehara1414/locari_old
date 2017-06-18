@@ -15,3 +15,7 @@ def search(request):
 
 def signup(request):
     return render(request, 'locari_app/signup.html')
+
+
+def signin(request):
+    return render(request, 'locari_app/signin.html')
