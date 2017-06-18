@@ -19,3 +19,7 @@ def signup(request):
 
 def signin(request):
     return render(request, 'locari_app/signin.html')
+
+
+def wish(request):
+    return render(request, 'locari_app/wish.html')
