@@ -39,3 +39,7 @@ def sale_request(request):
 
 def sale_request_submitted(request):
     return render(request, 'locari_app/sale_request_submitted.html')
+
+
+def buy_request(request):
+    return render(request, 'locari_app/buy_request.html')
