@@ -7,3 +7,7 @@ def index(request):
 
 def mypage(request):
     return render(request, 'locari_app/mypage.html')
+
+
+def search(request):
+    return render(request, 'locari_app/search.html')

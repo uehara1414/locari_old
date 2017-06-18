@@ -35,7 +35,7 @@
           <a class="navbar-brand" href="{% url 'locari_app:index' %}">locari</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <form class="navbar-form navbar-left">
+          <form class="navbar-form navbar-left" action="{% url 'locari_app:search' %}" method="get">
             <div class="form-group">
               <input type="text" placeholder="キーワードから探す" class="form-control">
             </div>
