@@ -5,7 +5,7 @@
   <div class="jumbotron text-center">
     <h2>認知心理学の教科書</h2>
     <h3>買取価格: 500円</h3>
-    <form action="{% url 'locari_app:sale_request_submitted' %}" method="post">
+    <form action="{% url 'locari_app:buy_request_submitted' %}" method="post">
       {% csrf_token %}
       <div class="form-group">
         <label for="exampleSelect1">取引場所</label>

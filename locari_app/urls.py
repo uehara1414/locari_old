@@ -14,4 +14,5 @@ urlpatterns = [
     url(r'^sale_request/$', views.sale_request, name='sale_request'),
     url(r'^sale_request_submitted/$', views.sale_request_submitted, name='sale_request_submitted'),
     url(r'^buy_request/$', views.buy_request, name='buy_request'),
+    url(r'^buy_request_submitted/$', views.buy_request_submitted, name='buy_request_submitted'),
 ]
