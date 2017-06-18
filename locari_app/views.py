@@ -31,3 +31,7 @@ def onsale(request):
 
 def confirming(request):
     return render(request, 'locari_app/confirming.html')
+
+
+def sale_request(request):
+    return render(request, 'locari_app/sale_request.html')

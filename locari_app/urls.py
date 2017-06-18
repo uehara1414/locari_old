@@ -11,4 +11,5 @@ urlpatterns = [
     url(r'^wish/$', views.wish, name='wish'),
     url(r'^onsale/$', views.onsale, name='onsale'),
     url(r'^confirming/$', views.confirming, name='confirming'),
+    url(r'^sale_request/$', views.sale_request, name='sale_request'),
 ]
