@@ -47,3 +47,7 @@ def buy_request(request):
 
 def buy_request_submitted(request):
     return render(request, 'locari_app/buy_request_submitted.html')
+
+
+def onsale_list(request):
+    return render(request, 'locari_app/onsale_list.html')
