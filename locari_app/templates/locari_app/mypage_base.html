@@ -1,0 +1,27 @@
+{% extends 'locari_app/base.html' %}
+{% block content %}
+
+    <div class="container-fluid" style="margin-top: 60px">
+      <div class="row">
+        <div class="col-sm-3 col-md-2 sidebar">
+          <ul class="nav nav-sidebar">
+            <li class="active"><a href="#">マイページ<span class="sr-only">(current)</span></a></li>
+            <li><a href="#">お知らせ</a></li>
+            <li><a href="#">やることリスト</a></li>
+            <li><a href="#">出品する</a></li>
+            <li><a href="#">出品リスト</a></li>
+            <li><a href="#">購入リスト</a></li>
+            <li><a href="#">ニュース一覧</a></li>
+            <li><a href="#">ガイド</a></li>
+            <li><a href="#">お問い合わせ</a></li>
+          </ul>
+        </div>
+
+        <div class="col-sm-9 main">
+          {% block main %}
+          {% endblock %}
+        </div>
+      </div>
+    </div>
+
+{% endblock %}
