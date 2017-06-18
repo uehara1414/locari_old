@@ -10,4 +10,5 @@ urlpatterns = [
     url(r'^signin/$', views.signin, name='signin'),
     url(r'^wish/$', views.wish, name='wish'),
     url(r'^onsale/$', views.onsale, name='onsale'),
+    url(r'^confirming/$', views.confirming, name='confirming'),
 ]

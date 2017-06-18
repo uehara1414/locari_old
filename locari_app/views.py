@@ -27,3 +27,7 @@ def wish(request):
 
 def onsale(request):
     return render(request, 'locari_app/onsale.html')
+
+
+def confirming(request):
+    return render(request, 'locari_app/confirming.html')
