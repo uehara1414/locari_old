@@ -23,3 +23,7 @@ def signin(request):
 
 def wish(request):
     return render(request, 'locari_app/wish.html')
+
+
+def onsale(request):
+    return render(request, 'locari_app/onsale.html')

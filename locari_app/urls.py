@@ -9,4 +9,5 @@ urlpatterns = [
     url(r'^signup/$', views.signup, name='signup'),
     url(r'^signin/$', views.signin, name='signin'),
     url(r'^wish/$', views.wish, name='wish'),
+    url(r'^onsale/$', views.onsale, name='onsale'),
 ]
