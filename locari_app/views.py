@@ -35,3 +35,7 @@ def confirming(request):
 
 def sale_request(request):
     return render(request, 'locari_app/sale_request.html')
+
+
+def sale_request_submitted(request):
+    return render(request, 'locari_app/sale_request_submitted.html')

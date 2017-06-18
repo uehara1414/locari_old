@@ -5,7 +5,8 @@
   <div class="jumbotron text-center">
     <h2>線形代数の教科書</h2>
     <h3>買取価格: 300円</h3>
-    <form>
+    <form action="{% url 'locari_app:sale_request_submitted' %}" method="post">
+      {% csrf_token %}
       <div class="form-group">
         <label for="exampleSelect1">取引場所</label>
         <select class="form-control" id="exampleSelect1">
