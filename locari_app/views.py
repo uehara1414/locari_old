@@ -59,3 +59,7 @@ def submitted_buy_request_list(request):
 
 def edit_onsale(request):
     return render(request, 'locari_app/edit_onsale.html')
+
+
+def wish_list(request):
+    return render(request, 'locari_app/wish_list.html')
