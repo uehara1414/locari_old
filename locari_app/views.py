@@ -75,3 +75,7 @@ def submitted_sale_request_list(request):
 
 def sell(request):
     return render(request, 'locari_app/sell.html')
+
+
+def sell_confirm(request):
+    return render(request, 'locari_app/sell_confirm.html')

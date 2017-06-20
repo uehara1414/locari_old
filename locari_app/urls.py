@@ -22,4 +22,5 @@ urlpatterns = [
     url(r'^edit_wish/$', views.edit_wish, name='edit_wish'),
     url(r'^submitted_sale_request_list/$', views.submitted_sale_request_list, name='submitted_sale_request_list'),
     url(r'^sell/$', views.sell, name='sell'),
+    url(r'^sell_confirm/$', views.sell_confirm, name='sell_confirm'),
 ]

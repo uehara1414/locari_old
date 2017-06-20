@@ -2,7 +2,7 @@
 {% block content %}
   <div class="container jumbotron" style="margin-top: 60px;width: 600px;">
 
-    <form class="form">
+    <form class="form" action="{% url 'locari_app:sell_confirm' %}">
       <h2>商品情報を入力</h2>
       <label for="inputEmail">商品名</label>
       <input type="text" id="title" class="form-control" placeholder="アルゴの教科書" required autofocus>
