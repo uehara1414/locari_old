@@ -71,3 +71,7 @@ def edit_wish(request):
 
 def submitted_sale_request_list(request):
     return render(request, 'locari_app/submitted_sale_request_list.html')
+
+
+def sell(request):
+    return render(request, 'locari_app/sell.html')
