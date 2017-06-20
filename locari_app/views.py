@@ -79,3 +79,7 @@ def sell(request):
 
 def sell_confirm(request):
     return render(request, 'locari_app/sell_confirm.html')
+
+
+def sell_completed(request):
+    return render(request, 'locari_app/sell_completed.html')
